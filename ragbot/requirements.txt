@@ -5,6 +5,7 @@ pdf2image
 google-genai
 langchain
 pypdf
+chromadb
 langchain_ollama
 langchain_community
 langchain_openai
