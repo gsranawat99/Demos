@@ -3,7 +3,7 @@ from crewai import Agent
 from TravelTools import search_web_tool
 #from TravelTools import search_web_tool, web_search_tool
 from crewai import LLM
-from langchain_ollama.llms import OllamaLLM
+# from langchain_ollama.llms import OllamaLLM
 from langchain_openai import ChatOpenAI
 from dotenv import load_dotenv
 import os
@@ -26,10 +26,10 @@ def get_llm():
 #     base_url="http://localhost:11434"
 # )
 
-llm =ChatOpenAI(
-    temperature=0,
-    model="openai/gpt-4o-mini",
-)
+# llm =ChatOpenAI(
+#     temperature=0,
+#     model="openai/gpt-4o-mini",
+# )
 # Agents
 guide_expert = Agent(
     role="City Local Guide Expert",
