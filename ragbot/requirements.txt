@@ -1,0 +1,10 @@
+streamlit
+python-dotenv
+google-generativeai
+pdf2image
+google-genai
+langchain
+langchain_ollama
+langchain_community
+langchain_openai
+langchain_core
