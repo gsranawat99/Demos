@@ -1,3 +1,7 @@
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+
 import streamlit as st
 import os
 from TravelAgents import guide_expert, location_expert, planner_expert, set_openai_api_key
