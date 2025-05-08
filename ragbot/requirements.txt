@@ -4,6 +4,7 @@ google-generativeai
 pdf2image
 google-genai
 langchain
+pypdf
 langchain_ollama
 langchain_community
 langchain_openai
