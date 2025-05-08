@@ -4,8 +4,7 @@ sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 
 import streamlit as st
 import os
-from TravelAgents import guide_expert, location_expert, planner_expert, set_openai_api_key
-from TravelTasks import location_task, guide_task, planner_task
+
 from crewai import Crew, Process
 
 # Streamlit App Title
@@ -28,6 +27,8 @@ if not st.session_state.api_key_set:
             st.error("Please enter a valid OpenAI API key.")
 else:
     # Show the rest of the app after API key is set
+    from TravelAgents import guide_expert, location_expert, planner_expert, set_openai_api_key
+    from TravelTasks import location_task, guide_task, planner_task
     st.markdown("""
     💡 **Plan your next trip with AI!**  
     Enter your travel details below, and our AI-powered travel assistant will create a personalized itinerary including:
