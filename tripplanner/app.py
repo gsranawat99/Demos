@@ -4,7 +4,7 @@ sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 
 import streamlit as st
 import os
-
+from TravelAgents import set_openai_api_key
 from crewai import Crew, Process
 
 # Streamlit App Title
