@@ -1,0 +1,12 @@
+streamlit
+streamlit_extras
+duckduckgo_search
+google-generativeai
+soundfile
+gradio-Client
+sounddevice
+langchain-groq
+groq
+langchain-core
+elevenlabs
+requests
